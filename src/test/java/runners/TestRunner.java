@@ -8,10 +8,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:Reports/htmlReport.html", "json:Reports/jsonReport.json"},
 				 features="./src/test/resources/features", glue="step_definitions",
-				 dryRun=true, 
+				 dryRun=false, 
 				 //when its true, cucumber only runs the scenario steps that have not been implemented)
-				 tags="@validLoginTest",
-				 publish=true
+				 tags= "@invalidTestSets",  
+				 publish=true 
 				 )
 				 		
 public class TestRunner {
