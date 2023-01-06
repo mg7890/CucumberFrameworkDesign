@@ -6,6 +6,8 @@ Feature: Amazon Search
     When I enter the search term "<items>"
     And I click on the search button
     Then I should see the search item "<items>" on search results page
+    Then the page title should contain the searched item "<items>"
+
 
     Examples: 
       | items             |
