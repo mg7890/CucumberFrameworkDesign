@@ -62,7 +62,6 @@
 					<testFailureIgnore>false</testFailureIgnore>
 					<includes>
 						<include>**/TestRunner.java</include>
-						<include>**/amazonRunner.java</include>
 					</includes>
 				</configuration>
 			</plugin>

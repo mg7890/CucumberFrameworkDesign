@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 				 features="./src/test/resources/features", glue="step_definitions",
 				 dryRun=false, 
 				 //when its true, cucumber only runs the scenario steps that have not been implemented)
-				 tags= "@userManagement",  
+				 tags= "@amazonSearchTest",  
 				 publish=true 
 				 )
 				 		
